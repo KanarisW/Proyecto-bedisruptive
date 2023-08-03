@@ -1,7 +1,7 @@
 const { test, expect} = require('@playwright/test');
 
 test.beforeEach(async({ page}) => {
-    await page.goto('http://127.0.0.1:5500/index.html');
+    await page.goto('file:///C:/Users/Kanaris/Desktop/Curso%20web/PROYECTOSWEB/Proyecto%20bedisruptive/index.html');
 });
 
 test.describe('Testing Form', () => {
