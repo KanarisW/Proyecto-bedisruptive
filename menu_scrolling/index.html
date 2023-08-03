@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    
+    <script src="https://kit.fontawesome.com/9996b5c471.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="css/jquery.tiltedpage-scroll.js"></script>
+    <link rel="stylesheet" href="css/tiltedpage-scroll.css">
+</head>
+<body>
+<div class="main">
+    <section  class="header">
+        <div class="content-box">
+            <!-- <video autoplay="autoplay" id="video_background" loop="loop" muted> -->
+                <!-- <source src="medios/fondo-video.mp4" type="video/mp4" /> -->
+            <!-- </video> -->
+            <div class="menu">
+                <img src="medios/logo.gif" alt="logo_giratorio">
+                <button type="button"><i class="fa-solid fa-right-to-bracket"> </i> Login</button>
+            </div>
+            <div class="banner-text">
+                <h2>Web Creativa y Diseño</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam enim beatae eum repellat incidunt voluptates fuga nihil quae, laboriosam doloribus!</p>
+                <a href="#">Aboul Us</a>
+            </div>
+        </div>
+    </section>
+    <!--------Servicios---------->
+    <section class="page1">
+        <section class="services">
+            <div class="content-box">
+                <div class="container">
+                    <h1>Otros Servicios</h1>
+                    <div class="row services">
+                        <div class="col-md-3 lext-center">
+                            <div class="icon">
+                                <i class="fa fa-renren"></i>
+                            </div>
+                            <h3>Brand <span>Activation</span></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur  adipisicing elit. Corrupti, deleniti.</p>
+                        </div>
+                        <div class="col-md-3 lext-center">
+                            <div class="icon">
+                                <i class="fa fa-renren"></i>
+                            </div>
+                            <h3>Brand <span>Activation</span></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur  adipisicing
+                        elit. Corrupti, deleniti.</p>
+                        </div>
+                        <div class="col-md-3 lext-center">
+                            <div class="icon">
+                                <i class="fa fa-renren"></i>
+                            </div>
+                            <h3>Brand <span>Activation</span></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur  adipisicing
+                        elit. Corrupti, deleniti.</p>
+                        </div>
+                        <div class="col-md-3 lext-center">
+                            <div class="icon">
+                                <i class="fa fa-renren"></i>
+                            </div>
+                            <h3>Brand <span>Activation</span></h3>
+                            <p>Lorem, ipsum dolor sit amet consectetur  adipisicing
+                        elit. Corrupti, deleniti.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="page2">
+    </section>
+      
+    <section class="last-page">
+    </section>
+</div>
+<script>
+     $(".main").tiltedpage_scroll({
+    sectionContainer: "> section",     // In case you don't want to use <section> tag, you can define your won CSS selector here
+    angle: 50,                         // You can define the angle of the tilted section here. Change this to false if you want to disable the tilted effect. The default value is 50 degrees.
+    opacity: true,                     // You can toggle the opacity effect with this option. The default value is true
+    scale: true,                       // You can toggle the scaling effect here as well. The default value is true.
+    outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
+  });
+</script>
+</body>
+</html>

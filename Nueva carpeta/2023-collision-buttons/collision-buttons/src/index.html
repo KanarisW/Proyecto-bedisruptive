@@ -1,0 +1,20 @@
+<div class="container">
+	<button class="btn">
+		<p>Click Me</p>
+	</button>
+	<button class="btn btn-3">
+		<p>Click Me &rarr;</p>
+	</button>
+</div>
+<svg>
+	<def>
+		<filter id="goo">
+			<feGaussianBlur stdDeviation="10" />
+			<feColorMatrix values=" 1 0 0 0 0
+                                        0 1 0 0 0
+                                        0 0 1 0 0
+                                        0 0 0 60 -15" />
+			<feBlend in="SourceGraphic" />
+		</filter>
+	</def>
+</svg>

@@ -1,0 +1,72 @@
+.button{
+  /* border: 1px solid #000;
+  border-radius: 50%; */
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  /* transition: 1s 1s; */
+  animation: cambiar 20s infinite ease-in-out ;
+}
+.leer{
+  display: flex;
+  opacity: 0;
+}
+/* .button:hover{
+  border-radius: 20px;
+  width: 100px;
+
+} */
+
+.button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: rgba(44, 21, 245, 0.5);
+  width: 60px;
+  height: 60px;
+  transition: all 0.8s ease;
+}
+
+.button:hover:before {
+  width: 100%;
+ 
+  /* background: #ffab9d; */
+}
+.button:hover svg {
+  transform: translateX(0);
+  
+}
+.button:active {
+  transform: scale(0.96);
+  
+}
+
+/* @keyframes button {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  30% {
+    top: 50px;
+  }
+  68%,
+  72% {
+    left: 50px;
+  }
+  100% {
+    top: 100px;
+    left: 100%;
+  }
+} */
+
+
+
+.flecha{
+  width: 25px;
+  height: 25px;
+  opacity: 0;
+  
+}
